@@ -1,0 +1,17 @@
+{
+    "name": "fairway/project2",
+    "authors": [
+        {
+            "name": "Alice"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.20"
+    },
+    "autoload": {
+        "psr-4": {
+            "Helpers\\": "_classes/Helpers/",
+            "Libs\\": "_classes/Libs/"
+        }
+    }
+}
